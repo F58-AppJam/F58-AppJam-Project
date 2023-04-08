@@ -1,8 +1,15 @@
 import 'package:f58_app_jam_project/second_screen.dart';
 import 'package:f58_app_jam_project/third_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
-void main() {
+void main() async {
+
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Future.delayed(const Duration(seconds: 2));
+  FlutterNativeSplash.remove();
+
   runApp(
     MaterialApp(
       initialRoute: "/",
@@ -14,7 +21,7 @@ void main() {
       home: Scaffold(
         backgroundColor: Color.fromARGB(255, 114, 207, 240),
         appBar: AppBar(
-          title: Text("DERS SEÇME"),
+          title: Text("AcademiGuide"),
           centerTitle: true,
           backgroundColor: Color.fromARGB(255, 211, 25, 25),
         ),
@@ -23,6 +30,7 @@ void main() {
     ),
   );
 }
+
 
 /*class MyStatefulWidget extends StatefulWidget {
   const MyStatefulWidget({super.key});
