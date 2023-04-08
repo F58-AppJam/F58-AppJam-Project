@@ -7,7 +7,7 @@ void main() {
       home: Scaffold(
         backgroundColor: Color.fromARGB(255, 114, 207, 240),
         appBar: AppBar(
-          title: Text("OUA Bursiyerler"),
+          title: Text("Academi Guide"),
           centerTitle: true,
           backgroundColor: Color.fromARGB(255, 211, 25, 25),
         ),
@@ -2871,28 +2871,23 @@ class _Ekran3State extends State<Ekran3> {
       appBar: AppBar(),
       body: SingleChildScrollView(
         child: Center(
-          child: Image.asset('images/download.png'),
+          child: Column(
+            children:[
+              Image.asset('images/download.png'),
+              Image.asset('images/download.png'),
+          Text("Kazanımlar"),
+          Text("fjkdfjdkfjkdjfjkd"),
+          Text("İçerik ve Kodlar"),
+          Text("data"),
+            ]
+
+          )
+
+
+
         ),
       ),
     );
   }
 }
-class Ekran3Yazi extends StatefulWidget {
-  const Ekran3Yazi({Key? key}) : super(key: key);
 
-  @override
-  State<Ekran3Yazi> createState() => _Ekran3YaziState();
-}
-
-class _Ekran3YaziState extends State<Ekran3Yazi> {
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder(
-        child: Text("Flutter For MacOS",
-        style: TextStyle(
-        fontSize: 18,
-    )
-        )
-    );
-  }
-}
