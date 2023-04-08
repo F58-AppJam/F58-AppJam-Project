@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -2866,7 +2867,32 @@ class Ekran3 extends StatefulWidget {
 class _Ekran3State extends State<Ekran3> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(),
+      body: SingleChildScrollView(
+        child: Center(
+          child: Image.asset('images/download.png'),
+        ),
+      ),
+    );
   }
 }
+class Ekran3Yazi extends StatefulWidget {
+  const Ekran3Yazi({Key? key}) : super(key: key);
 
+  @override
+  State<Ekran3Yazi> createState() => _Ekran3YaziState();
+}
+
+class _Ekran3YaziState extends State<Ekran3Yazi> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder(
+        child: Text("Flutter For MacOS",
+        style: TextStyle(
+        fontSize: 18,
+    )
+        )
+    );
+  }
+}
