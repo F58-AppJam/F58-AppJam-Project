@@ -1,5 +1,10 @@
-import 'package:f58_app_jam_project/second_screen.dart';
+import 'package:f58_app_jam_project/flutter_screen.dart';
+import 'package:f58_app_jam_project/girisimcilik_screen.dart';
+import 'package:f58_app_jam_project/ingilizce_screen.dart';
+import 'package:f58_app_jam_project/kurulumlar_screen.dart';
+import 'package:f58_app_jam_project/oyunSanati_screen.dart';
 import 'package:f58_app_jam_project/third_screen.dart';
+import 'package:f58_app_jam_project/unity_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 
@@ -15,13 +20,18 @@ void main() async {
       initialRoute: "/",
       routes: {
         "/home_screen": (context) => HomePage(),
-        "/second_screen": (context) => SecondScreen(),
-        "/third_screen": (context) => ThirdScreen(), 
+        "/flutter_screen": (context) => FlutterScreen(),
+        "/unity_screen": (context) => UnityScreen(),
+        "/oyunSanati_screen": (context) => OyunSanatiScreen(),
+        "/kurulumlar_screen": (context) => KurulumlarScreen(),
+        "/girisimcilik_screen": (context) => GirisimcilikScreen(),
+        "/ingilizce_screen": (context) => IngilizceScreen(),
+        "/third_screen": (context) => ThirdScreen(),
       },
       home: Scaffold(
-        backgroundColor: Color.fromARGB(255, 114, 207, 240),
+        backgroundColor: Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
-          title: Text("AcademiGuide"),
+          title: Text("Academi Guide"),
           centerTitle: true,
           backgroundColor: Color.fromARGB(255, 211, 25, 25),
         ),
@@ -32,13 +42,6 @@ void main() async {
 }
 
 
-/*class MyStatefulWidget extends StatefulWidget {
-  const MyStatefulWidget({super.key});
-
-  @override
-  State<MyStatefulWidget> createState() => _MyStatefulWidgetState();
-}*/
-
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -46,15 +49,16 @@ class HomePage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
+          const SizedBox(height: 20),
           SizedBox(
-            width: 180,
-            height: 70,
+            width: 300,
+            height: 80,
             child: ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, "/second_screen");
+                Navigator.pushNamed(context, "/flutter_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.green, // yeşil arka plan rengi
+                primary: Color.fromARGB(255, 12, 107, 151),
               ),
               child: Text(
                 "FLUTTER",
@@ -66,14 +70,14 @@ class HomePage extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           SizedBox(
-            width: 180,
-            height: 70,
+            width: 300,
+            height: 80,
             child: ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, "/second_screen");
+                Navigator.pushNamed(context, "/unity_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.green, // yeşil arka plan rengi
+                primary: Color.fromARGB(255, 222, 199, 22),
               ),
               child: Text(
                 "UNITY",
@@ -85,14 +89,14 @@ class HomePage extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           SizedBox(
-            width: 180,
-            height: 70,
+            width: 300,
+            height: 80,
             child: ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, "/second_screen");
+                Navigator.pushNamed(context, "/oyunSanati_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.green, // yeşil arka plan rengi
+                primary: Color.fromARGB(255, 82, 98, 198),
               ),
               child: Text(
                 "OYUN SANATI",
@@ -104,14 +108,14 @@ class HomePage extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           SizedBox(
-            width: 180,
-            height: 70,
+            width: 300,
+            height: 80,
             child: ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/second_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.green, // yeşil arka plan rengi
+                primary: Color.fromARGB(255, 160, 56, 30),
               ),
               child: Text(
                 "PROJE YÖNETİMİ",
@@ -123,14 +127,14 @@ class HomePage extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           SizedBox(
-            width: 180,
-            height: 70,
+            width: 300,
+            height: 80,
             child: ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, "/second_screen");
+                Navigator.pushNamed(context, "/girisimcilik_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.green, // yeşil arka plan rengi
+                primary: Color.fromARGB(255, 217, 231, 72),
               ),
               child: Text(
                 "GİRİŞİMCİLİK",
@@ -142,14 +146,14 @@ class HomePage extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           SizedBox(
-            width: 180,
-            height: 70,
+            width: 300,
+            height: 80,
             child: ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, "/second_screen");
+                Navigator.pushNamed(context, "/ingilizce_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.green, // yeşil arka plan rengi
+                primary: Color.fromARGB(255, 55, 128, 57),
               ),
               child: Text(
                 "İNGİLİZCE",
@@ -161,14 +165,14 @@ class HomePage extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           SizedBox(
-            width: 180,
-            height: 70,
+            width: 300,
+            height: 80,
             child: ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, "/second_screen");
+                Navigator.pushNamed(context, "/kurulumlar_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.green, // yeşil arka plan rengi
+                primary: Color.fromARGB(255, 68, 75, 68),
               ),
               child: Text(
                 "KURULUMLAR",
@@ -178,13 +182,10 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(height: 20),
         ],
       ),
     );
   }
 }
-
-
-
-
 
