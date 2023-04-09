@@ -19,7 +19,7 @@ class FlutterScreen extends StatelessWidget {
             height: 80,
             child: ElevatedButton(
             onPressed: () {
-              Navigator.pushNamed(context, "/third_screen");
+              Navigator.pushNamed(context, "/flutter_modul1_screen");
             },
               style: ElevatedButton.styleFrom(
                 primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi

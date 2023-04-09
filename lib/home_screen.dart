@@ -1,9 +1,14 @@
+import 'package:f58_app_jam_project/flutter_modul1.dart';
 import 'package:f58_app_jam_project/flutter_screen.dart';
 import 'package:f58_app_jam_project/girisimcilik_screen.dart';
 import 'package:f58_app_jam_project/ingilizce_screen.dart';
+import 'package:f58_app_jam_project/kurulumlar_flutter_macos_screen.dart';
+import 'package:f58_app_jam_project/kurulumlar_flutter_windows_screen.dart';
 import 'package:f58_app_jam_project/kurulumlar_screen.dart';
+import 'package:f58_app_jam_project/kurulumlar_unity_windows_screen.dart';
 import 'package:f58_app_jam_project/oyunSanati_screen.dart';
 import 'package:f58_app_jam_project/third_screen.dart';
+import 'package:f58_app_jam_project/unity_modul5.dart';
 import 'package:f58_app_jam_project/unity_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
@@ -12,7 +17,7 @@ void main() async {
 
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Future.delayed(const Duration(seconds: 2));
+  await Future.delayed(const Duration(seconds: 1));
   FlutterNativeSplash.remove();
 
   runApp(
@@ -26,6 +31,12 @@ void main() async {
         "/kurulumlar_screen": (context) => KurulumlarScreen(),
         "/girisimcilik_screen": (context) => GirisimcilikScreen(),
         "/ingilizce_screen": (context) => IngilizceScreen(),
+
+        "/kurulumlar_flutter_windows_screen": (context) => KurulumlarFlutterWindowsScreen(),
+        "/kurulumlar_flutter_macos_screen": (context) => KurulumlarFlutterMacosScreen(),
+        "/kurulumlar_unity_windows_screen": (context) => KurulumlarUnityWindowsScreen(),
+        "/unity_modul5_screen": (context) => UnityModul5Screen(),
+        "/flutter_modul1_screen": (context) => FlutterModul1Screen(),
         "/third_screen": (context) => ThirdScreen(),
       },
       home: Scaffold(
