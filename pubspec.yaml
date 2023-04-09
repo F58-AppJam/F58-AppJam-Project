@@ -32,3 +32,23 @@ dev_dependencies:
 flutter:
   assets:
     - images/icerik.png
+    - images/flutter_mac_1.jpg
+    - images/flutter_mac_2.jpg
+    - images/flutter_mac_3.jpg
+    - images/flutter_mac_4.jpg
+
+    - images/flutter_windows_1.jpg
+    - images/flutter_windows_2.jpg
+    - images/flutter_windows_3.jpg
+    - images/flutter_windows_4.jpg
+    - images/flutter_windows_5.jpg
+    - images/flutter_windows_6.jpg
+    - images/flutter_windows_7.jpg
+    
+
+    - images/unity_windows_1.jpg
+    - images/unity_windows_2.jpg
+    - images/unity_windows_3.jpg
+    - images/unity_windows_4.jpg
+    - images/unity_windows_5.jpg
+    

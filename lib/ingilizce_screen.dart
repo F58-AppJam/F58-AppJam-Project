@@ -6,7 +6,7 @@ class IngilizceScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("İNGİLİZCE"),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 55, 128, 57),
+        backgroundColor: Color.fromARGB(255, 49, 171, 92),
       ),
       body: SingleChildScrollView(
         child: Center(
@@ -22,7 +22,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 1 Part 1",
                       style: TextStyle(
@@ -41,7 +41,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 1 Part 2",
                       style: TextStyle(
@@ -59,7 +59,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 2 Part 1",
                       style: TextStyle(
@@ -77,7 +77,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 2 Part 2",
                       style: TextStyle(
@@ -95,7 +95,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 3 Part 1",
                       style: TextStyle(
@@ -113,7 +113,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 3 Part 2",
                       style: TextStyle(
@@ -131,7 +131,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 4 Part 1",
                       style: TextStyle(
@@ -149,7 +149,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 4 Part 2",
                       style: TextStyle(
@@ -167,7 +167,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 5 Part 1",
                       style: TextStyle(
@@ -185,7 +185,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 5 Part 2",
                       style: TextStyle(
@@ -203,7 +203,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 6 Part 1",
                       style: TextStyle(
@@ -221,7 +221,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 6 Part 2",
                       style: TextStyle(
@@ -239,7 +239,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 7 Part 1",
                       style: TextStyle(
@@ -257,7 +257,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 7 Part 2",
                       style: TextStyle(
@@ -275,7 +275,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 8 Part 1",
                       style: TextStyle(
@@ -293,7 +293,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 8 Part 2",
                       style: TextStyle(
@@ -311,7 +311,7 @@ class IngilizceScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 55, 128, 57), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 49, 171, 92), // yeşil arka plan rengi
                     ),
                     child: Text("Useful Apps and Sites",
                       style: TextStyle(

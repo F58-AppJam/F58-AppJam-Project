@@ -6,7 +6,7 @@ class FlutterScreen extends StatelessWidget {
       appBar: AppBar(
          title: Text("FLUTTER"),
          centerTitle: true,
-         backgroundColor: Color.fromARGB(255, 12, 107, 151),
+         backgroundColor: Color.fromARGB(255, 65, 140, 245),
       ),
       body: SingleChildScrollView(
         child: Center(
@@ -22,7 +22,7 @@ class FlutterScreen extends StatelessWidget {
               Navigator.pushNamed(context, "/flutter_modul1_screen");
             },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
               ),
               child: Text("Flutter101",
                 style: TextStyle(
@@ -41,7 +41,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 2: Dart Dilini Ve IDE'yi Tanıma",
                   style: TextStyle(
@@ -59,7 +59,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 3: Dart Dilini Derinlemesine Tanıma",
                   style: TextStyle(
@@ -77,7 +77,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 4: Dart ile Nesne Tabanlı Programlama",
                   style: TextStyle(
@@ -95,7 +95,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 5: Collection'lar",
                   style: TextStyle(
@@ -113,7 +113,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 6:Flutter'a Giriş",
                   style: TextStyle(
@@ -131,7 +131,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 7:StatefulWidget ve StatelessWidget",
                   style: TextStyle(
@@ -149,7 +149,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 8: Widget Ağacı",
                   style: TextStyle(
@@ -167,7 +167,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 9: Layout",
                   style: TextStyle(
@@ -185,7 +185,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 10: Navigation",
                   style: TextStyle(
@@ -203,7 +203,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 11: Asenkron Programlama",
                   style: TextStyle(
@@ -221,7 +221,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 12: Flutter'daki Widget'ları Tanıma 1",
                   style: TextStyle(
@@ -239,7 +239,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 13: Flutter'daki Widgetları Tanıma 2",
                   style: TextStyle(
@@ -257,7 +257,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 14: Basit Bir Uygulama Geliştirelim",
                   style: TextStyle(
@@ -275,7 +275,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 15 : Riverpod ile State Managment",
                   style: TextStyle(
@@ -293,7 +293,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 16 : Internet Kullanımı",
                   style: TextStyle(
@@ -311,7 +311,7 @@ class FlutterScreen extends StatelessWidget {
                   Navigator.pushNamed(context, "/third_screen");
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 12, 107, 151), // yeşil arka plan rengi
+                  primary: Color.fromARGB(255, 65, 140, 245), // yeşil arka plan rengi
                 ),
                 child: Text("Modül 17 : Hata Yakalama",
                   style: TextStyle(

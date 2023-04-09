@@ -12,18 +12,16 @@ class KurulumlarFlutterMacosScreen extends StatelessWidget {
         child: Center(
           child: Column(
             children:[
-              Text("Flutter Macos Kurulum",
-              style: Theme.of(context).textTheme.headline5
+              Text("Flutter MacOS Kurulum",
+              style: Theme.of(context).textTheme.headline4
               ),
-              Text("In this example, we are going to show the way to change style of font inside text widget such as font-weight, font size, color, bold, italic, underline properties of font inside Text Widget in Flutter. See the example below for more details",
+              Text("https://docs.flutter.dev/get-started/install/macos",
               style: Theme.of(context).textTheme.headline6
               ),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
+              Image.asset('images/flutter_mac_4.jpg'),
+              Image.asset('images/flutter_mac_1.jpg'),
+              Image.asset('images/flutter_mac_2.jpg'),
+              Image.asset('images/flutter_mac_3.jpg'),
             ]
           )
         ),

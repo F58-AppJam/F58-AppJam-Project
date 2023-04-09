@@ -6,7 +6,7 @@ class KurulumlarScreen extends StatelessWidget {
       appBar: AppBar(
          title: Text("KURULUMLAR"),
          centerTitle: true,
-         backgroundColor: Color.fromARGB(255, 68, 75, 68),
+         backgroundColor: Color.fromARGB(255, 80, 80, 80),
       ),
       body: SingleChildScrollView(
         child: Center(
@@ -22,7 +22,7 @@ class KurulumlarScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/kurulumlar_flutter_windows_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 68, 75, 68),
+                      primary: Color.fromARGB(255, 80, 80, 80),
                     ),
                     child: Text("Flutter For Windows",
                       style: TextStyle(
@@ -41,7 +41,7 @@ class KurulumlarScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/kurulumlar_flutter_macos_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 68, 75, 68),
+                      primary: Color.fromARGB(255, 80, 80, 80),
                     ),
                     child: Text("Flutter For MacOS",
                       style: TextStyle(
@@ -59,7 +59,7 @@ class KurulumlarScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/kurulumlar_unity_windows_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 68, 75, 68),
+                      primary: Color.fromARGB(255, 80, 80, 80),
                     ),
                     child: Text("Unity For Windows",
                       style: TextStyle(
@@ -77,7 +77,7 @@ class KurulumlarScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 68, 75, 68),
+                      primary: Color.fromARGB(255, 80, 80, 80),
                     ),
                     child: Text("Unity For MacOS",
                       style: TextStyle(
@@ -95,7 +95,7 @@ class KurulumlarScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 68, 75, 68),
+                      primary: Color.fromARGB(255, 80, 80, 80),
                     ),
                     child: Text("Adobe For Windows",
                       style: TextStyle(
@@ -113,7 +113,7 @@ class KurulumlarScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 68, 75, 68),
+                      primary: Color.fromARGB(255, 80, 80, 80),
                     ),
                     child: Text("Adobe For MacOS",
                       style: TextStyle(
@@ -131,7 +131,7 @@ class KurulumlarScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 68, 75, 68),
+                      primary: Color.fromARGB(255, 80, 80, 80),
                     ),
                     child: Text("Maya For Windows",
                       style: TextStyle(
@@ -149,7 +149,7 @@ class KurulumlarScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 68, 75, 68),
+                      primary: Color.fromARGB(255, 80, 80, 80),
                     ),
                     child: Text("Maya For MacOS",
                       style: TextStyle(

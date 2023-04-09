@@ -13,17 +13,16 @@ class KurulumlarUnityWindowsScreen extends StatelessWidget {
           child: Column(
             children:[
               Text("Unity Windows Kurulum",
-              style: Theme.of(context).textTheme.headline5
+              style: Theme.of(context).textTheme.headline4
               ),
-              Text("In this example, we are going to show the way to change style of font inside text widget such as font-weight, font size, color, bold, italic, underline properties of font inside Text Widget in Flutter. See the example below for more details",
+              Text("https://unity.com/download",
               style: Theme.of(context).textTheme.headline6
               ),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
-              Image.asset('images/icerik.png'),
+              Image.asset('images/unity_windows_1.jpg'),
+              Image.asset('images/unity_windows_2.jpg'),
+              Image.asset('images/unity_windows_3.jpg'),
+              Image.asset('images/unity_windows_4.jpg'),
+              Image.asset('images/unity_windows_5.jpg'),
             ]
           )
         ),

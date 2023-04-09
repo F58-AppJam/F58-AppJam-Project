@@ -6,7 +6,7 @@ class OyunSanatiScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("OYUN SANATI"),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 82, 98, 198),
+        backgroundColor: Color.fromARGB(255, 109, 117, 197),
       ),
       body: SingleChildScrollView(
         child: Center(
@@ -22,7 +22,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 1: Temel Sanat",
                       style: TextStyle(
@@ -41,7 +41,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 2: 2D Sanat ve Daha Fazlası",
                       style: TextStyle(
@@ -59,7 +59,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 3: Photoshop Giriş",
                       style: TextStyle(
@@ -77,7 +77,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 4: Photoshop Araçları",
                       style: TextStyle(
@@ -95,7 +95,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 5: Photoshop Pratikleri",
                       style: TextStyle(
@@ -113,7 +113,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 5: Photoshop Pratikleri Extra",
                       style: TextStyle(
@@ -131,7 +131,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 6: 3D",
                       style: TextStyle(
@@ -149,7 +149,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 6: 3D Extra ",
                       style: TextStyle(
@@ -167,7 +167,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 7: Maya Programına Giriş",
                       style: TextStyle(
@@ -185,7 +185,7 @@ class OyunSanatiScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 82, 98, 198), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 109, 117, 197), // yeşil arka plan rengi
                     ),
                     child: Text("Modül 7: Maya Programına Giriş Extra",
                       style: TextStyle(

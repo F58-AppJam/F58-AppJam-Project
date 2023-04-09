@@ -69,7 +69,7 @@ class HomePage extends StatelessWidget {
                 Navigator.pushNamed(context, "/flutter_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 12, 107, 151),
+                primary: Color.fromARGB(255, 65, 140, 245),
               ),
               child: Text(
                 "FLUTTER",
@@ -88,7 +88,7 @@ class HomePage extends StatelessWidget {
                 Navigator.pushNamed(context, "/unity_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 222, 199, 22),
+                primary: Color.fromARGB(255, 236, 190, 18),
               ),
               child: Text(
                 "UNITY",
@@ -107,7 +107,7 @@ class HomePage extends StatelessWidget {
                 Navigator.pushNamed(context, "/oyunSanati_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 82, 98, 198),
+                primary: Color.fromARGB(255, 109, 117, 197),
               ),
               child: Text(
                 "OYUN SANATI",
@@ -126,7 +126,7 @@ class HomePage extends StatelessWidget {
                 Navigator.pushNamed(context, "/second_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 160, 56, 30),
+                primary: Color.fromARGB(255, 220, 77, 63),
               ),
               child: Text(
                 "PROJE YÖNETİMİ",
@@ -145,7 +145,7 @@ class HomePage extends StatelessWidget {
                 Navigator.pushNamed(context, "/girisimcilik_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 217, 231, 72),
+                primary: Color.fromARGB(255, 240, 227, 64),
               ),
               child: Text(
                 "GİRİŞİMCİLİK",
@@ -164,7 +164,7 @@ class HomePage extends StatelessWidget {
                 Navigator.pushNamed(context, "/ingilizce_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 55, 128, 57),
+                primary: Color.fromARGB(255, 49, 171, 92),
               ),
               child: Text(
                 "İNGİLİZCE",
@@ -183,7 +183,7 @@ class HomePage extends StatelessWidget {
                 Navigator.pushNamed(context, "/kurulumlar_screen");
               },
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 68, 75, 68),
+                primary: Color.fromARGB(255, 80, 80, 80),
               ),
               child: Text(
                 "KURULUMLAR",

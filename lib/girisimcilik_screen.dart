@@ -6,7 +6,7 @@ class GirisimcilikScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("GİRİŞİMCİLİK"),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 217, 231, 72),
+        backgroundColor: Color.fromARGB(255, 240, 227, 64),
       ),
       body: SingleChildScrollView(
         child: Center(
@@ -22,7 +22,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                       child: Text("Temel Girişimcilik: Modül 1:",
                       style: TextStyle(
@@ -41,7 +41,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Temel Girişimcilik: Modül 2",
                       style: TextStyle(
@@ -59,7 +59,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Temel Girişimcilik: Modül 3",
                       style: TextStyle(
@@ -77,7 +77,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Temel Girişimcilik: Modül 4",
                       style: TextStyle(
@@ -95,7 +95,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Temel Girişimcilik: Modül 5",
                       style: TextStyle(
@@ -113,7 +113,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Temel Girişimcilik: Modül 6",
                       style: TextStyle(
@@ -131,7 +131,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Temel Girişimcilik: Modül 7",
                       style: TextStyle(
@@ -149,7 +149,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Temel Girişimcilik: Modül 8",
                       style: TextStyle(
@@ -167,7 +167,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Temel Girişimcilik: Modül 9",
                       style: TextStyle(
@@ -185,7 +185,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Girişimciler İçin Hukuk Modül 1",
                       style: TextStyle(
@@ -203,7 +203,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Girişimciler İçin Hukuk Modül 2",
                       style: TextStyle(
@@ -221,7 +221,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Girişimciler İçin Hukuk Modül 3",
                       style: TextStyle(
@@ -239,7 +239,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Girişimciler İçin Finans Modül 1-4",
                       style: TextStyle(
@@ -257,7 +257,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Girişimciler İçin Finans Modül 5-8",
                       style: TextStyle(
@@ -275,7 +275,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Girişimciler İçin Finans Modül 9-12",
                       style: TextStyle(
@@ -293,7 +293,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Girişimciler İçin İK Modülü",
                       style: TextStyle(
@@ -311,7 +311,7 @@ class GirisimcilikScreen extends StatelessWidget {
                       Navigator.pushNamed(context, "/third_screen");
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 217, 231, 72), // yeşil arka plan rengi
+                      primary: Color.fromARGB(255, 240, 227, 64), // yeşil arka plan rengi
                     ),
                     child: Text("Girişimciler İçin İK Modülü 2",
                       style: TextStyle(
