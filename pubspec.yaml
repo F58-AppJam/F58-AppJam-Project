@@ -17,8 +17,8 @@ flutter_native_splash:
   android: true
   ios: true
   web: false
-  color: "FFCC00"
-  image: "assets/oua_background.png"
+  color: "000000"
+  image: "assets/splash.png"
 
   english_words: ^4.0.0
   provider: ^6.0.0
@@ -51,4 +51,10 @@ flutter:
     - images/unity_windows_3.jpg
     - images/unity_windows_4.jpg
     - images/unity_windows_5.jpg
+
+    - images/namespace1.png
+    - images/namespace2.png
+    - images/namespace3.png
+
+    
     

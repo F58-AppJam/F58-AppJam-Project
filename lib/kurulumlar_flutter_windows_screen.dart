@@ -15,16 +15,40 @@ class KurulumlarFlutterWindowsScreen extends StatelessWidget {
               Text("Flutter Windows Kurulum",
               style: Theme.of(context).textTheme.headline4
               ),
-              Text("https://docs.flutter.dev/get-started/install/windows",
-              style: Theme.of(context).textTheme.headline6
+              Padding(
+                padding: const EdgeInsets.all(15),
+                child: Text("https://docs.flutter.dev/get-started/install/windows",
+                style: Theme.of(context).textTheme.headline6
+                ),
               ),
-              Image.asset('images/flutter_windows_6.jpg'),
-              Image.asset('images/flutter_windows_7.jpg'),
-              Image.asset('images/flutter_windows_1.jpg'),
-              Image.asset('images/flutter_windows_2.jpg'),
-              Image.asset('images/flutter_windows_3.jpg'),
-              Image.asset('images/flutter_windows_4.jpg'),
-              Image.asset('images/flutter_windows_5.jpg'),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/flutter_windows_6.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/flutter_windows_7.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/flutter_windows_1.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/flutter_windows_2.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/flutter_windows_3.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/flutter_windows_4.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/flutter_windows_5.jpg'),
+              ),
             ]
           )
         ),

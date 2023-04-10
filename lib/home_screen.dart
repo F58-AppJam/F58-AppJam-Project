@@ -22,6 +22,7 @@ void main() async {
 
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
         "/home_screen": (context) => HomePage(),

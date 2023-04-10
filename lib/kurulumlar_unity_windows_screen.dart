@@ -15,14 +15,32 @@ class KurulumlarUnityWindowsScreen extends StatelessWidget {
               Text("Unity Windows Kurulum",
               style: Theme.of(context).textTheme.headline4
               ),
-              Text("https://unity.com/download",
-              style: Theme.of(context).textTheme.headline6
+              Padding(
+                padding: const EdgeInsets.all(15),
+                child: Text("https://unity.com/download",
+                style: Theme.of(context).textTheme.headline6
+                ),
               ),
-              Image.asset('images/unity_windows_1.jpg'),
-              Image.asset('images/unity_windows_2.jpg'),
-              Image.asset('images/unity_windows_3.jpg'),
-              Image.asset('images/unity_windows_4.jpg'),
-              Image.asset('images/unity_windows_5.jpg'),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/unity_windows_1.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/unity_windows_2.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/unity_windows_3.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/unity_windows_4.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('images/unity_windows_5.jpg'),
+              ),
             ]
           )
         ),
